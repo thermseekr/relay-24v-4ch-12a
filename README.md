@@ -6,4 +6,4 @@ The dimensions are such that the boards can be mounted on a PCB DIN rail holder 
 
 Board uses Omron 16A relays and is limited to 12A/channel per copper trace capacity.
 
-![alt text](https://github.com/thermseekr/relay-24v-4ch/blob/main/V1/relay-24v-4ch-12a-v1.png "RELAY-24V-4CH-12A V1")
+![alt text](https://github.com/thermseekr/relay-24v-4ch-12a-v1/blob/main/V1/relay-24v-4ch-12a-v1.png "RELAY-24V-4CH-12A V1")
