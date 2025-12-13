@@ -140,7 +140,6 @@
 			(at 11.25 -6.25 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "81b870b2-bcca-417f-af2a-85108e01c7f0")
 			(effects
 				(font
@@ -1045,7 +1044,7 @@
 			(net 15 "/OUT3PW")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "38e2ce7f-9449-448f-9a5e-94e47e18a692")
+			(uuid "73da84cb-aa6f-40ca-8c59-23c7b3eff4bf")
 		)
 		(pad "2" thru_hole circle
 			(at -2.54 -3.81 180)
@@ -1067,7 +1066,7 @@
 			(net 14 "/OUT3LD")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "23635187-58d0-497f-bec4-0e30d76727d8")
+			(uuid "322b87f4-cece-4127-8059-1a14435e0c2a")
 		)
 		(pad "3" thru_hole circle
 			(at 2.54 -3.81 180)
@@ -1089,7 +1088,7 @@
 			(net 17 "/OUT4PW")
 			(pinfunction "Pin_3")
 			(pintype "passive")
-			(uuid "6c4f849e-9717-48be-ac57-da8d70740294")
+			(uuid "f9c3d7e6-d66f-40bd-aa7e-5c21a74726d4")
 		)
 		(pad "4" thru_hole circle
 			(at 7.62 -3.81 180)
@@ -1111,7 +1110,7 @@
 			(net 16 "/OUT4LD")
 			(pinfunction "Pin_4")
 			(pintype "passive")
-			(uuid "9645b977-815c-4cdf-9d19-733e9936b525")
+			(uuid "a56d2828-0c5c-4630-b760-293a7d3ed497")
 		)
 		(embedded_fonts no)
 		(model "${TDEV_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_DB142V-508-4P.stp"
@@ -2290,7 +2289,7 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" "1"
 			(at 83 248 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2314,7 +2313,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "G5PZ-1A"
+		(property "Mfr PN" "G5PZ-1A-E DC24V"
 			(at 83 248 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2350,7 +2349,7 @@
 				)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 83 248 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2362,11 +2361,24 @@
 				)
 			)
 		)
-		(property "Vendor PN" "653-G5PZ-1ADC24"
+		(property "Vendor PN" "C6719448"
 			(at 83 248 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0a200a0b-912c-4863-b3f3-736a3c9d7f4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C6719448"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "806ca609-d934-4f95-b512-63b113989176")
 			(effects
 				(font
 					(size 1 1)
@@ -3459,7 +3471,6 @@
 		(property "Reference" "RV1"
 			(at 6 -1.25 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "3ee185c7-ab5b-4b7c-b98d-026a30f6ff7f")
 			(effects
 				(font
@@ -4654,6 +4665,58 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C2898744"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c930b0f2-674b-4803-b814-efa524ba3f3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr" "DORABO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f084b57c-fef0-48ac-bfbd-7cc6939a9175")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr PN" "DB141V-2.54-2P-GN"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c58e548d-7de6-4e04-98aa-66a28070ede4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor PN" "C2898744"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae89cad8-6df6-41ec-9cb2-cc11dadab430")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c75584d1-8a45-45b3-b2b7-260284d464b1")
 		(sheetname "/")
@@ -5010,7 +5073,7 @@
 			(net 2 "+24V")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "efc3906c-ddc4-407a-ba64-7e9b1b9305c6")
+			(uuid "88df23cc-25a6-49b2-9604-785a231f5c03")
 		)
 		(pad "2" thru_hole circle
 			(at 1.27 -2.54)
@@ -5032,7 +5095,7 @@
 			(net 2 "+24V")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "d6bba06b-3246-4486-ae62-b1f1bc14fe90")
+			(uuid "b32485fe-de28-469d-bb3d-3ea6a7adfe8a")
 		)
 		(embedded_fonts no)
 		(model "${TDEV_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_DB141V-254-2P.stp"
@@ -5099,7 +5162,7 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" "1"
 			(at 71 236 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5123,7 +5186,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "G5PZ-1A"
+		(property "Mfr PN" "G5PZ-1A-E DC24V"
 			(at 71 236 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5159,7 +5222,7 @@
 				)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 71 236 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5171,11 +5234,24 @@
 				)
 			)
 		)
-		(property "Vendor PN" "653-G5PZ-1ADC24"
+		(property "Vendor PN" "C6719448"
 			(at 71 236 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0f4488b4-8bac-4ec5-a500-e187fb2a3a4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C6719448"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1b85724-1b3e-4737-b97d-2b56ed9349a5")
 			(effects
 				(font
 					(size 1 1)
@@ -5551,7 +5627,6 @@
 		(property "Reference" "RV4"
 			(at 6 -1.25 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "5b116bba-f283-454b-872a-d95667061a14")
 			(effects
 				(font
@@ -5934,7 +6009,6 @@
 		(property "Reference" "RV2"
 			(at 6 -1.25 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "64f1646f-71c7-4d7d-93cd-cb5707ca911a")
 			(effects
 				(font
@@ -6316,7 +6390,6 @@
 			(at 11.25 -6.25 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "caa238ac-3bb4-422a-8e2d-7efe26625959")
 			(effects
 				(font
@@ -7221,7 +7294,7 @@
 			(net 10 "/OUT1PW")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "d4ff2ded-d380-48fa-ab8a-6fcd613d67db")
+			(uuid "5cfc60a5-faf5-4968-b828-e579fec77157")
 		)
 		(pad "2" thru_hole circle
 			(at -2.54 -3.81 180)
@@ -7243,7 +7316,7 @@
 			(net 12 "/OUT1LD")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "6e42f2e3-cf16-4c09-bd34-f8e4afbb4175")
+			(uuid "0a0f5692-2ba7-463a-9c94-7e91306395ef")
 		)
 		(pad "3" thru_hole circle
 			(at 2.54 -3.81 180)
@@ -7265,7 +7338,7 @@
 			(net 13 "/OUT2PW")
 			(pinfunction "Pin_3")
 			(pintype "passive")
-			(uuid "a9507e6b-aa90-4cb5-96f5-ccea10c6b54d")
+			(uuid "1451a3ba-f005-476b-982d-9d57881a7035")
 		)
 		(pad "4" thru_hole circle
 			(at 7.62 -3.81 180)
@@ -7287,7 +7360,7 @@
 			(net 11 "/OUT2LD")
 			(pinfunction "Pin_4")
 			(pintype "passive")
-			(uuid "b4d8e192-024a-4125-81f2-72606a987749")
+			(uuid "f895e0b0-481e-4f7d-8df1-e55914641d34")
 		)
 		(embedded_fonts no)
 		(model "${TDEV_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_DB142V-508-4P.stp"
@@ -7399,6 +7472,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cf850616-8029-4f08-a2f4-f2de994a1eba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2898746"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eee222fc-a374-4a6a-835a-0a59d71d187a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr" "DORABO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6b43451-e46c-4d9a-a2af-5b6ac118d555")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr PN" "DB141V-2.54-4P-GN"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d996c0d-afdb-4dca-9b9a-8af809d602fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor PN" "C2898746"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8f62882-4a9c-4bdf-802c-f849f14f9175")
 			(effects
 				(font
 					(size 1 1)
@@ -7970,7 +8095,7 @@
 			(net 9 "/IN4")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "410db81a-7917-486c-ab89-8b5cb9f2be1f")
+			(uuid "6941054c-93c4-41ad-9dd0-619e6d65465d")
 		)
 		(pad "2" thru_hole circle
 			(at -1.27 -2.54)
@@ -7992,7 +8117,7 @@
 			(net 6 "/IN3")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "d60cdaa6-a800-46da-9a0c-155aef4b4d9a")
+			(uuid "35a83989-643b-45dc-9147-866bb426359e")
 		)
 		(pad "3" thru_hole circle
 			(at 1.27 -2.54)
@@ -8014,7 +8139,7 @@
 			(net 5 "/IN2")
 			(pinfunction "Pin_3")
 			(pintype "passive")
-			(uuid "98e730f3-3a75-4dc9-8796-3d87c8573a38")
+			(uuid "d8ce3644-533d-459a-aaeb-61dd8d1a39ef")
 		)
 		(pad "4" thru_hole circle
 			(at 3.81 -2.54)
@@ -8036,7 +8161,7 @@
 			(net 3 "/IN1")
 			(pinfunction "Pin_4")
 			(pintype "passive")
-			(uuid "126d1e3d-e7e2-4c7e-9366-a92272aae954")
+			(uuid "6f2fe135-67d1-495d-a31f-3c32dfc74a07")
 		)
 		(embedded_fonts no)
 		(model "${TDEV_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_DB141V-254-4P.stp"
@@ -8103,7 +8228,7 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" "1"
 			(at 59 224 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8127,7 +8252,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "G5PZ-1A"
+		(property "Mfr PN" "G5PZ-1A-E DC24V"
 			(at 59 224 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8163,7 +8288,7 @@
 				)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 59 224 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8175,11 +8300,24 @@
 				)
 			)
 		)
-		(property "Vendor PN" "653-G5PZ-1ADC24"
+		(property "Vendor PN" "C6719448"
 			(at 59 224 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4be1d3d2-5cf1-45d9-a963-a0534bddef3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C6719448"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca4e1c9d-3c5c-4de7-9af2-e6cdd13287d4")
 			(effects
 				(font
 					(size 1 1)
@@ -9664,7 +9802,7 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" "1"
 			(at 47 212 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9688,7 +9826,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "G5PZ-1A"
+		(property "Mfr PN" "G5PZ-1A-E DC24V"
 			(at 47 212 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9724,7 +9862,7 @@
 				)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 47 212 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9736,11 +9874,24 @@
 				)
 			)
 		)
-		(property "Vendor PN" "653-G5PZ-1ADC24"
+		(property "Vendor PN" "C6719448"
 			(at 47 212 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f8d30ce3-ad72-4f0c-835b-a757db971fef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C6719448"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65593e65-d546-47aa-90e9-4cfe23e64134")
 			(effects
 				(font
 					(size 1 1)
@@ -10116,7 +10267,6 @@
 		(property "Reference" "RV3"
 			(at 6 -1.25 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "0fbdbe79-1534-41eb-a5e4-472e07dec4d2")
 			(effects
 				(font
@@ -11462,7 +11612,7 @@
 		(uuid "047f5c68-9b75-4a9f-803b-e1e086dce487")
 		(effects
 			(font
-				(size 1.5 1.5)
+				(size 1.4 1.3)
 				(thickness 0.2)
 			)
 		)
@@ -11473,7 +11623,7 @@
 		(uuid "04dd0c7c-7337-45e2-8f4c-e74dbf9f9675")
 		(effects
 			(font
-				(size 1.5 1.5)
+				(size 1.4 1.3)
 				(thickness 0.2)
 			)
 		)
@@ -11518,7 +11668,7 @@
 		(uuid "4c2f9262-3381-4ead-bd4a-853f399a25e1")
 		(effects
 			(font
-				(size 1.5 1.5)
+				(size 1.4 1.3)
 				(thickness 0.2)
 			)
 		)
@@ -11623,7 +11773,7 @@
 		(uuid "95f7092b-e2d3-4ed2-9101-020b5a0d4e37")
 		(effects
 			(font
-				(size 1.5 1.5)
+				(size 1.4 1.3)
 				(thickness 0.2)
 			)
 		)
